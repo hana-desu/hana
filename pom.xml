@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>member</module>
+        <module>common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -56,6 +57,12 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>5.6.3</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.coder</groupId>
+                <artifactId>common</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
